@@ -1,0 +1,9 @@
+
+
+.game-container > h2, .game-container > ul > li {
+  color: var(--mqg-color-400);
+}
+
+.game-container > ul > li {
+  text-align: left;
+}

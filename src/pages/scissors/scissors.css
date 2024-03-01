@@ -1,0 +1,79 @@
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.resultado h2 {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arena {
+  width: 300px;
+  height: 300px;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+
+.consolaChooice, .resultado, .playerChooice{
+  height: 100px;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+}
+
+.consolaChooice, .playerChooice {
+  width: 100px;
+}
+
+.resultado {
+  width: 100%;
+}
+
+.pokeball {
+  background-image: url(pokemon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.panelChooice {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.panelChooice > div {
+  width: 75px;
+  height: 75px;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+}
+
+.squirtle {
+  background-image: url(squirtle.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.charmander {
+  background-image: url(charmander.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bulbasaur {
+  background-image: url(bulbasaur.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

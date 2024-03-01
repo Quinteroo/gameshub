@@ -1,0 +1,33 @@
+
+
+.scores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.scores p{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 15px;
+}
+
+.tableto button {
+  width: 100px;
+  height: 100px;
+}
+
+.tablero button p {
+font-size: 30px;
+}

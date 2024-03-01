@@ -1,0 +1,111 @@
+
+#app {
+  width: 40%;
+  height: 100vh;
+  border: 1.5px solid var(--mqg-color-10);
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mqg-color-15);
+  border: 1.5px solid var(--mqg-color-10);
+}
+
+header > img {
+  width: 60%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 87vh;
+  border: 1.5px solid var(--mqg-color-10);
+
+}
+
+main > section {
+  width: 100%;
+  height: 70vh;
+  border: 30px solid var(--mqg-color-15);
+  background-color: var(--mqg-color-50);
+}
+
+.game-container {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--mqg-color-10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.game-container > h2, .game-container > ul > li {
+  color: var(--mqg-color-400);
+}
+
+.game-container > ul > li {
+  text-align: left;
+}
+
+nav {
+  width: 100%;
+  height: 17vh;
+  background-color: var(--mqg-color-15);
+  border: 1.5px solid var(--mqg-color-10);
+  gap:15px;
+}
+
+footer {
+  width: 40%;
+  height: 3vh;
+  background-color: var(--mqg-color-15);
+  position: fixed;
+  bottom: 0px;
+  border: 1.5px solid var(--mqg-color-10);
+
+}
+
+footer > p {
+  color: var(--mqg-color-05);
+}
+
+
+footer > p > a{
+  color: var(--mqg-color-400);
+  font-weight: 400;
+  font-size: var(--mqg-textsize-s);
+}
+
+a:hover {
+  color: var(--mqg-color-500);
+  cursor: pointer;
+}
+
+
+@media (max-width: 1000px) {
+  #app {
+    width: 100%;
+    
+  }
+
+
+  header > img {
+    width: 80%;
+  }
+
+  main > section {
+    border: 15px solid var(--mqg-color-15);
+  }
+
+  footer {
+    width: 100%;
+  }
+
+}

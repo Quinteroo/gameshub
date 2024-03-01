@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+:root {
+
+  /* mqg = miguel quintero gordo */
+
+  /* COLORS */   /* #ffdc5c */
+  --mqg-color-05: #f3f3f3;
+  --mqg-color-10: #8953a1;
+  --mqg-color-15: #712296;
+  --mqg-color-25: #3d3d3d;
+  --mqg-color-50: #181818;
+  --mqg-color-100: #ff443e;
+  --mqg-color-200: #5c90ff;
+  --mqg-color-300: #49ff43;
+  --mqg-color-400: #fcff43;
+  --mqg-color-500: #ffae43;
+  
+  
+
+  /* BACKGROUNDS */
+  --mqg-primary-background:var(--mqg-color-15);
+
+
+  /* TEXTS */
+  --mqg-textsize-xs: 0.7rem;
+  --mqg-textsize-s: 1.1rem;
+  --mqg-textsize-m: 2rem;
+  --mqg-textsize-l: 3rem;
+  --mqg-textsize-xl: 12rem;
+
+  /* PADDINGS */
+  --mqg-padding-xs: 0.5em;
+  --mqg-padding-s: 1em;
+  --mqg-padding-m: 2em;
+  --mqg-padding-l: 3em;
+  --mqg-padding-xl: 3.5em;
+  --mqg-padding-xxl: 4em;
+  --mqg-padding-button-xs: 0.4em;
+  --mqg-padding-button-s: 0.4em 1.5em 0.4em 1.5em;
+  --mqg-padding-button-m: 0.5em 1.6em 0.5em 1.6em;
+
+  /* MARGINS */
+  --mqg-margins-xs: 0.2em;
+  --mqg-margins-s: 1em;
+  --mqg-margins-m: 2em;
+  --mqg-margins-l: 3em;
+  --mqg-margins-xl: 4.3em;
+
+  /* BORDER RADIUS */
+  --mqg-border-radius-1: 5px;
+  --mqg-border-radius-2: 100%
+
+}
+
+
+
+/* TITLES */
+h1 {
+  color: var(--mqg-color-15);
+  font-weight: 100;
+  font-size: var(--mqg-textsize-xs);
+}
+
+h2, h3 {
+  color: var(--mqg-color-25);
+  font-weight: 500;
+  font-size: var(--mqg-textsize-m);
+}
+
+
+p, li, a{
+  color: var(--mqg-color-25);
+  font-weight: 400;
+  font-size: var(--mqg-textsize-s);
+}
+
+
+
+
+/* FLEX */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* LAYOUT */
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--mqg-color-25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 1000px) {
+
+
+}
